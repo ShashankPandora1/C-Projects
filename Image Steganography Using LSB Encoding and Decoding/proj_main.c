@@ -1,3 +1,15 @@
+/*
+Author Name	    :-Shashank Pandora
+Organisation	:-Emertxe Information Technologies (P) Ltd.
+Date		    :-28 June 2020
+Description	    :-To execute encode source image file of .bmp extension with secret.txt file, and decode the steganographed 
+		          output image.bmp to extract data similar to secret.txt file.
+Input		    :-User will enter file names from command line argument seperately for encoding and decoding.
+Output		    :-For encoding-
+		        ./a.out -e beautiful.bmp secret.txt <ouput_stegged_img.bmp>
+		        For decoding-
+		        ./a.out -d stego.bmp <decoded_code.txt>
+*/
 #include<stdio.h>
 #include"encode.c"
 #include"decode.c"
